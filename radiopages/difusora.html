@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        .conteiner{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('./assets/background2.jpg') center center no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <title>Rádio Difusora</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="conteudo">
+            <img src="../assets/difusoracard.png" alt="alvoradacard" class="card">
+            <h1>Difusora FM</h1>
+            <h2>História</h2>
+            <p>A Rádio Difusora foi fundada em 12 de outubro de 1933, como Rádio Clube por João Sampaio Góes. A programação de inauguração foi das 8 da manhã até as 11h30 do dia seguinte e consistia de cumprimentos de amigos e mensagens do comércio e entidades locais.
+            </p>
+            <p class="ouca">Ouça o rádio aqui</p>
+            <audio controls>
+                <source src="http://69.16.236.247:9300/stream"></source>
+            </audio>
+            <div class="button" onclick="window.location.href='../index.html'">
+                <p>Voltar</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

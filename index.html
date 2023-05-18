@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/stylehome.css">
+    <link rel="shortcut icon" href="assets/radioicon.png" type="image/x-icon">
+    <title>Landpage para rádios</title>
+</head>
+<body>
+    <nav>
+        <ul> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#radios">Rádios</a></li>
+            <li><a href="#desenvolvedores" style="text-decoration: none;">Desenvolvedores</a></li>
+        </ul>
+        <div class="button">
+            <a href="mailto:rennisonsoares7@gmail.com"><p>Contate-nos</p></a>
+        </div>
+    </nav>
+    <header>
+        <div class="shapecomplement"></div>
+        <img src="assets/shapecircular.png" alt="shape" class="shape">
+        <div class="titles">
+            <p>Bem vindo ao site</p>
+            <h1>Radios AM</h1>
+            <p>Landing page para mostrar as principais rádios do Amazonas</p>
+        </div>
+        <div class="art">
+            <img src="assets/phone3d.png" alt="phone" class="phone3d">
+            <img src="assets/alvoradacard.png" alt="alvoradacard" class="alvoradacard">
+            <img src="assets/radioclubecard.png" alt="radioclubecard" class="radioclubecard">
+            <img src="assets/difusoracard.png" alt="difusoracard" class="difusoracard">
+        </div>
+    </header>
+    <main>
+        <section id="radios">
+            <p>Selecione a rádio para conhecer e ouvir: </p>
+            <div class="cards">
+                <div class="card" id="openalvorada" onclick="window.location.href='./radiopages/alvorada.html'">
+                    <img src="assets/tplalvorada.png" alt="logoalvorada">
+                </div>
+                <div class="card" onclick="window.location.href='./radiopages/difusora.html'">
+                    <img src="assets/tpldifusora.png" alt="logoalvorada">
+                </div>
+                <div class="card" onclick="window.location.href='./radiopages/clube.html'">
+                    <img src="assets/tplradioclube.png" alt="logoalvorada">
+                </div>
+            </div>
+        </section>
+        <section id="desenvolvedores">
+            <h2>Desenvolvedores</h2>
+            <div class="devs">
+                <div class="imgdev">
+                    <img src="assets/rennisonphoto.png" alt="">
+                </div>
+                <div>
+                    <h3>Rennison Soares</h3>
+                    <p>Atualmente está cursando o 3º ano do Ensino Médio integrada com o curso técnico em Informática. Pretende seguir na área de front-end e como web designer</p>
+                </div>
+            </div>
+            <div class="devs">
+                <div class="imgdev">
+                    <img src="assets/thiagophoto.png" alt="">
+                </div>
+                <div>
+                    <h3>Thiago Penha</h3>
+                    <p>Atualmente está cursando o 3º ano do Ensino Médio integrada com o curso técnico em Informática. Gosta de assuntos envolvendo conceitos e assuntos de Ciências Humanas</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Este site foi desenvolovido para obtenção de nota da disciplina de Programação Web <span style="font-family: Arial;">&copy;</span></p>
+    </footer>
+</body>
+</html>

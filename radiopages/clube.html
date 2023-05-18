@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        .conteiner{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('./assets/background3.jpg') center center no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <title>Rádio Clube</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="conteudo">
+            <img src="../assets/radioclubecard.png" alt="alvoradacard" class="card">
+            <h1>Rádio Clube</h1>
+            <h2>História</h2>
+            <p>Inaugurada pela família Gonçalves no dia 8 de junho de 1987, colabora até hoje com o engrandecimento da comunicação no interior da Amazônia. Dá voz a comunidade, denuncia, sugere, aplaude e ajuda no desenvolvimento de Parintins, a cidade mais importante do interior do Amazonas. 
+            </p>
+            <p class="ouca">Ouça o rádio aqui</p>
+            <audio controls>
+                <source src="http://radios.cabreuvoip.com.br:7048/;stream.mp3"></source>
+            </audio>
+            <div class="button" onclick="window.location.href='../index.html'">
+                <p>Voltar</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

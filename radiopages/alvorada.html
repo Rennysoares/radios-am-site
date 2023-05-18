@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/alvoradaicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        .conteiner{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('./assets/background.jpg') center center no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <title>Rádio Alvorada</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="conteudo">
+            <img src="../assets/alvoradacard.png" alt="alvoradacard" class="card">
+            <h1>Rádio Alvorada</h1>
+            <h2>História</h2>
+            <p>A história da emissora inicia na década de 1960, com o aval da igreja sobre os meios de comunicação e o desejo dos padres de instalar uma rádio no coração da Amazônia, com o objetivo de tirar do isolamento o povo abandonado nas comunidades rurais distantes da então Prelazia de Parintins.</p>
+            <p class="ouca">Ouça o rádio aqui</p>
+            <audio controls>
+                <source src="https://svrstream1.svreua.com/streams.php?porta=8016"></source>
+            </audio>
+            <div class="button" onclick="window.location.href='../index.html'">
+                <p>Voltar</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
